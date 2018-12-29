@@ -116,7 +116,3 @@ class Hashmap:
     """
     def is_prime(self, n):
         return (2**n - 2)%n == 0
-    
-    def show(self):
-        for chained_table in self.table:
-            print(str(chained_table))
